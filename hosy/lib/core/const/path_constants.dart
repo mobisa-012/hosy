@@ -14,4 +14,7 @@ class PathConstants {
   static const String profile1 = 'assets/images/profile.png';
   static const String payment = 'assets/icons/payment.png';
   static const String settings = 'assets/icons/settings.png';
+  static const String facebook = 'assets/images/facebook.png';
+  static const String twitter = 'assets/images/twitter.png';
+  static const String instagram = 'assets/images/instagram.png';
 }

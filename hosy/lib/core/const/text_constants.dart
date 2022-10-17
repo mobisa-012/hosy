@@ -31,4 +31,6 @@ class TextConstants {
   static const String history = 'Hostory';
   static const String help = 'Help';
   static const String paymentMethod = 'Payment method';
+  static const String rateUsOn = 'Rate us on';
+  static const String joinUsOn = 'Join us';
 }
