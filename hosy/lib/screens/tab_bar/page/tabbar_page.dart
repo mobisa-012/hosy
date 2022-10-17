@@ -3,6 +3,10 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hosy/core/const/colors.dart';
 import 'package:hosy/core/const/path_constants.dart';
 import 'package:hosy/core/const/text_constants.dart';
+import 'package:hosy/screens/doctors/page/doctors_page.dart';
+import 'package:hosy/screens/home/page/homepage.dart';
+import 'package:hosy/screens/hospitals/page/hospotals_page.dart';
+import 'package:hosy/screens/profile/page/profile_page.dart';
 import 'package:hosy/screens/tab_bar/bloc/tabbar_bloc.dart';
 
 class TabBarPage extends StatelessWidget {
