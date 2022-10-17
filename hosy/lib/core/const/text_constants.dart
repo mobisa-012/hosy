@@ -10,6 +10,7 @@ class TextConstants {
   static const String alwaysReady = 'Always ready, anytime, anywhere';
 
   //Home screen
+  static const String home = 'Home';
   static const String order = 'Order';
   static const String book = 'Book';
   static const String orderAmbulance = 'Order Ambulance';
@@ -25,6 +26,7 @@ class TextConstants {
   static const String setDate = 'Set date to see the doctor';
 
   //Profile
+  static const String profile = 'Me';
   static const String inviteFriends = 'Invite friends';
   static const String history = 'Hostory';
   static const String help = 'Help';
