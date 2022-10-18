@@ -8,7 +8,6 @@ import 'package:hosy/core/const/colors.dart';
 import 'package:hosy/core/const/path_constants.dart';
 import 'package:hosy/core/const/text_constants.dart';
 import 'package:hosy/core/services/validation_service.dart';
-
 import 'package:hosy/screens/change_password/page/change_password.dart';
 import 'package:hosy/screens/common_widgets/fitness_button.dart';
 import 'package:hosy/screens/common_widgets/fitness_loading.dart';
