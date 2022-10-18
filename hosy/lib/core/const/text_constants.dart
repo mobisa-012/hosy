@@ -33,4 +33,35 @@ class TextConstants {
   static const String paymentMethod = 'Payment method';
   static const String rateUsOn = 'Rate us on';
   static const String joinUsOn = 'Join us';
+
+  static const String editAccount = 'Edit account';
+  static const String editPhoto = 'Edit photo';
+  static const String fullName = 'Full name';
+  static const String nameShouldContain2Char =
+      'Name should contain at least 2 characters';
+  static const String changePassword = 'Change Password';
+
+  // Edit account screen -> show settings
+  static const String cameraPermission = 'Camera permisson';
+  static const String cameAccess =
+      'This app needs camera access to take pictures for upload user profile photo';
+  static const String deny = 'Deny';
+  static const String settings = 'Settings';
+  static const String fullNamePlaceholder = 'Enter your full name';
+  static const String newPassword = 'New password';
+  static const String passwordUpdated = 'Password successfully updated!';
+  static const String save = 'Save';
+  static const String email = 'Email';
+  static const String emailPlaceholder = 'example@mail.com';
+  static const String emailErrorText =
+      'Email is invalid, please enter email correctly';
+      static const String password = 'Password';
+  static const String passwordPlaceholder = 'Must be at least 6 characters';
+  static const String passwordErrorText =
+      'Password should contain at least 6 characters';
+       static const String confirmPassword = ' Confirm password';
+  static const String confirmpasswordPlaceholder = 'Re-enter password';
+  static const String confirmpasswordErrorText = 'Password does not match';
+
+  static const String alreadyHaveAnAccount = 'Already have an account?';
 }
