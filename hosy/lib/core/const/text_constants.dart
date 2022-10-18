@@ -1,7 +1,14 @@
 class TextConstants {
   //onboarding
+  static const String onboardingTile1 =
+      'Conveniently have emergency medical care';
+  static const String onboardingTile2 =
+      'Get medical care from qualified and certified doctors';
+      static const String onboardingTile3 = 'Any emergency care is cared for';
   static const String hosy = 'Hosy';
   static const String needAmbulance = 'Need an ambulance?';
+  static const String needDoctor = 'Need a doctor?';
+  static const String haveAnEmergency = 'Have an emergecny?';
   static const String phoneNumber =
       'Enter phone number to book or order an ambulance';
   static const String otp = 'Send OTP';
@@ -81,8 +88,8 @@ class TextConstants {
   static const String newPassword = 'New password';
   static const String passwordUpdated = 'Password successfully updated!';
   static const String save = 'Save';
- 
-   //forgot password
+
+  //forgot password
   static const passwordReset = 'Password Reset';
   static const sendActivationBuild = 'Send Activation Link';
   static const resetPasswordLinkWasSent =

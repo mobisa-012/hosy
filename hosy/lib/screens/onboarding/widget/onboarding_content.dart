@@ -6,6 +6,7 @@ import 'package:hosy/core/const/dataconstants.dart';
 import 'package:hosy/screens/onboarding/bloc/onboarding_bloc.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
 
+
 class OnboardingContent extends StatelessWidget {
   const OnboardingContent({Key? key}) : super(key: key);
 

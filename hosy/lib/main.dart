@@ -5,9 +5,10 @@ import 'package:flutter/services.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:hosy/core/const/colors.dart';
 import 'package:hosy/core/services/notification_services.dart';
+import 'package:hosy/screens/onboarding/page/onboarding_page.dart';
 import 'package:hosy/screens/tab_bar/page/tabbar_page.dart';
 // ignore: depend_on_referenced_packages
-import 'package:timezone/data/latest.dart' as tz;
+//import 'package:timezone/data/latest.dart' as tz;
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -25,28 +26,10 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  // ignore: unused_field
   static final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
       NotificationService.flutterLocalNotificationsPlugin;
 
-  @override
-  void initState() {
-    // ignore: todo
-    // TODO: implement initState
-    super.initState();
-    const AndroidInitializationSettings initializationSettingsAndroid =
-        AndroidInitializationSettings('app_icon');
-    const IOSInitializationSettings initializationSettingsIOS =
-         IOSInitializationSettings();
-    const InitializationSettings initializationSettings =
-         InitializationSettings(
-            android: initializationSettingsAndroid,
-            iOS: initializationSettingsIOS);
-            
-    tz.initializeTimeZones();
-
-    flutterLocalNotificationsPlugin.initialize(initializationSettings,
-        onSelectNotification: selectNotification);
-  }
 
   @override
   Widget build(BuildContext context) {
