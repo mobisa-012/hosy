@@ -9,6 +9,36 @@ class TextConstants {
   static const String verify = 'Verify';
   static const String alwaysReady = 'Always ready, anytime, anywhere';
 
+  static const String signUp = 'Sign up';
+  static const String signIn = 'Sign In';
+  static const String signOut = 'Sign Out';
+
+  static const String username = 'Username';
+  static const String userNamePlaceholder = 'Your name';
+  static const String userNameErrorText = 'Text is needed';
+
+  static const String email = 'Email';
+  static const String emailPlaceholder = 'example@mail.com';
+  static const String emailErrorText =
+      'Email is invalid, please enter email correctly';
+
+  static const String password = 'Password';
+  static const String passwordPlaceholder = 'Must be at least 6 characters';
+  static const String passwordErrorText =
+      'Password should contain at least 6 characters';
+
+  static const String confirmPassword = ' Confirm password';
+  static const String confirmpasswordPlaceholder = 'Re-enter password';
+  static const String confirmpasswordErrorText = 'Password does not match';
+
+  static const String alreadyHaveAnAccount = 'Already have an account?';
+
+  // Sign In
+  static const String passwordPlaceholderSignIn = 'Enter your password';
+  static const String forgotPassword = 'Forgot password';
+
+  static const String doNotHaveAnAcount = 'Do not have an account?';
+
   //Home screen
   static const String home = 'Home';
   static const String order = 'Order';
@@ -51,17 +81,10 @@ class TextConstants {
   static const String newPassword = 'New password';
   static const String passwordUpdated = 'Password successfully updated!';
   static const String save = 'Save';
-  static const String email = 'Email';
-  static const String emailPlaceholder = 'example@mail.com';
-  static const String emailErrorText =
-      'Email is invalid, please enter email correctly';
-      static const String password = 'Password';
-  static const String passwordPlaceholder = 'Must be at least 6 characters';
-  static const String passwordErrorText =
-      'Password should contain at least 6 characters';
-       static const String confirmPassword = ' Confirm password';
-  static const String confirmpasswordPlaceholder = 'Re-enter password';
-  static const String confirmpasswordErrorText = 'Password does not match';
-
-  static const String alreadyHaveAnAccount = 'Already have an account?';
+ 
+   //forgot password
+  static const passwordReset = 'Password Reset';
+  static const sendActivationBuild = 'Send Activation Link';
+  static const resetPasswordLinkWasSent =
+      'Reset password link was sent on your email.';
 }
