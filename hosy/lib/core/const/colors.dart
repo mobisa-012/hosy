@@ -8,4 +8,6 @@ class AppColors {
   static const iconColor = Color.fromARGB(255, 1, 1, 17);
   static const profiletextColor = Color.fromARGB(255, 8, 1, 20);
   static const errorColor = Color.fromARGB(255, 248, 8, 8);
+  static const disabledColor = Color(0xFFE1E1E5);
+  static const textFieldBorder = Color(0xFFB9BBC5);
 }

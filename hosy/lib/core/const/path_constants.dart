@@ -1,6 +1,7 @@
 class PathConstants {
   static const String ambulance = 'assets/images/Ambulance.png';
   static const String heart = 'assets/images/heart.png';
+  static const String eye = 'assets/icons/eye.png';
   static const String foot = 'assets/images/foot.png';
   static const String home = 'assets/icons/home.png';
   static const String help = 'assets/icons/help.png';
