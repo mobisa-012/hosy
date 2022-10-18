@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:hosy/core/const/colors.dart';
 
-class HomeCard extends StatelessWidget {
+class HospitalCard extends StatelessWidget {
   final Widget child;
   final Function() onTap;
   final bool withCall;
   
-  const HomeCard({super.key, required this.onTap, required this.withCall, required this.child, });
+  const HospitalCard({super.key, required this.onTap, required this.withCall, required this.child, });
 
   @override
   Widget build(BuildContext context) {
