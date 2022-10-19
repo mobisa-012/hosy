@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'dart:io';
 
 import 'package:firebase_auth/firebase_auth.dart';
@@ -108,7 +110,7 @@ class _ProfileState extends State<Profile> {
             ProfileContainer(
                 onTap: () {
                   Share.share(
-                      'You can also call an ambulance and book an appointment with any doctor!!',
+                      'You can call an ambulance and book an appointment with any doctor!!',
                       subject: 'Look what I found!');
                 },
                 child: Row(
