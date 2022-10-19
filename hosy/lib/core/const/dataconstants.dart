@@ -25,7 +25,7 @@ class DataConstants {
 
   static final List<DoctorData> doctorsDataPage = [
     DoctorData(
-      yearsOfExperience: 5, 
+      yearsOfExperience: '5', 
       image: PathConstants.profile1, 
       doctorDetailsList: [
         DoctorsDetails(
@@ -37,7 +37,7 @@ class DataConstants {
       ),
 
       DoctorData(
-      yearsOfExperience: 3, 
+      yearsOfExperience: '3', 
       image: PathConstants.profile1, 
       doctorDetailsList: [
         DoctorsDetails(
@@ -49,7 +49,7 @@ class DataConstants {
       ),
 
       DoctorData(
-      yearsOfExperience: 2, 
+      yearsOfExperience: '2', 
       image: PathConstants.profile1, 
       doctorDetailsList: [
         DoctorsDetails(
@@ -60,7 +60,7 @@ class DataConstants {
       specialty: TextConstants.specialty3,
       ),
       DoctorData(
-      yearsOfExperience: 8, 
+      yearsOfExperience: '8', 
       image: PathConstants.profile1, 
       doctorDetailsList: [
         DoctorsDetails(
@@ -71,7 +71,7 @@ class DataConstants {
       specialty: TextConstants.specialty2,
       ),
       DoctorData(
-      yearsOfExperience: 2, 
+      yearsOfExperience: '2', 
       image: PathConstants.profile1, 
       doctorDetailsList: [
         DoctorsDetails(
@@ -83,7 +83,7 @@ class DataConstants {
       ),
 
       DoctorData(
-      yearsOfExperience: 3, 
+      yearsOfExperience: '3', 
       image: PathConstants.profile1, 
       doctorDetailsList: [
         DoctorsDetails(
