@@ -7,10 +7,15 @@ class DoctorData {
   final List<DoctorsDetails> doctorDetailsList;
   final String yearsOfExperience;
 
-  DoctorData( 
+  DoctorData(
       {required this.yearsOfExperience,
       required this.image,
       required this.doctorDetailsList,
       required this.name,
       required this.specialty});
+
+  @override
+  String toString() {
+     return 'DoctortData(name: $name, specialty: $specialty, yearsOfExperience: $yearsOfExperience, doctorDetailsList: $doctorDetailsList,)';
+  }
 }
