@@ -1,9 +1,6 @@
 // ignore_for_file: deprecated_member_use
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:hosy/core/const/colors.dart';
 import 'package:hosy/core/const/text_constants.dart';
 import 'package:hosy/screens/common_widgets/hospital_card.dart';
