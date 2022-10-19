@@ -4,7 +4,7 @@ class TextConstants {
       'Conveniently have emergency medical care';
   static const String onboardingTile2 =
       'Get medical care from qualified and certified doctors';
-      static const String onboardingTile3 = 'Any emergency care is cared for';
+  static const String onboardingTile3 = 'Any emergency care is cared for';
   static const String hosy = 'Hosy';
   static const String needAmbulance = 'Need an ambulance?';
   static const String needDoctor = 'Need a doctor?';
@@ -61,6 +61,8 @@ class TextConstants {
   static const String findDoctor = 'find a doctor';
   static const String doctor = 'Let\'s find you a doctor';
   static const String setDate = 'Set date to see the doctor';
+  static const String call = 'Call me';
+  static const String textMe = 'Text me';
 
   //Profile
   static const String profile = 'Me';
@@ -94,4 +96,18 @@ class TextConstants {
   static const sendActivationBuild = 'Send Activation Link';
   static const resetPasswordLinkWasSent =
       'Reset password link was sent on your email.';
+
+  //Doctors list
+  static const String name1 = 'Uniceve Mobisa';
+  static const String name2 = 'Brian Abuya';
+  static const String name3 = 'Euniter Nyaboke';
+  static const String name4 = 'Lamech Omwega';
+  static const String name5 = 'Laban Orina';
+
+  //specialty list
+  static const String specialty1 = 'Opthamologist';
+  static const String specialty2 = 'Clinician';
+  static const String specialty3 = 'Peditrician';
+  static const String specialty4 = 'Gynecologist';
+  static const String specialty5 = 'Cardiologist';
 }
