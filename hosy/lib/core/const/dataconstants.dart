@@ -79,19 +79,8 @@ class DataConstants {
         title: '${TextConstants.call}or${TextConstants.textMe}'
       ), ],
       name: TextConstants.name4, 
-      specialty: TextConstants.specialty2,
+      specialty: TextConstants.specialty4,
       ),
 
-      DoctorData(
-      yearsOfExperience: '3', 
-      image: PathConstants.profile1, 
-      doctorDetailsList: [
-        DoctorsDetails(
-        child: true, 
-        title: '${TextConstants.call}or${TextConstants.textMe}'
-      ), ],
-      name: TextConstants.name4, 
-      specialty: TextConstants.specialty2,
-      )
   ];
 }
