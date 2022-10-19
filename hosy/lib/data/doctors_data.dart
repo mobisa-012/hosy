@@ -5,7 +5,7 @@ class DoctorData {
   final String image;
   final String specialty;
   final List<DoctorsDetails> doctorDetailsList;
-  final int yearsOfExperience;
+  final String yearsOfExperience;
 
   DoctorData( 
       {required this.yearsOfExperience,
