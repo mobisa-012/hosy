@@ -1,11 +1,10 @@
 import 'package:flutter/cupertino.dart';
 
 class DoctorsDetails {
-  final Widget child;
-  final Function() onTap;
+  final bool child;
+  final String title;
 
   DoctorsDetails({
-    required this.child,
-    required this.onTap
-  });
+    required this.title, 
+    required this.child, });
 }
