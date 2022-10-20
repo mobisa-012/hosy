@@ -20,4 +20,6 @@ class PathConstants {
   static const String instagram = 'assets/images/instagram.png';
   static const String doctor = 'assets/images/doctor.png';
   static const String emergency = 'assets/images/emergency.png';
+  static const String ambulanceMarker = 'assets/images/taxi_marker.png';
+  static const String location = 'assets/images/location.png';
 }
